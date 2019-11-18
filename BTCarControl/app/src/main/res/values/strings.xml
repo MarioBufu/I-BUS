@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BT Car Control</string>
+    <string name="enableBT">Enable Bluetooth</string>
+    <string name="discoverable">Make visible</string>
+    <string name="disableBT">Disable Bluetooth</string>
+    <string name="deviceVisible">Device visible</string>
+    <string name="pairedList">Paired devices</string>
+</resources>
