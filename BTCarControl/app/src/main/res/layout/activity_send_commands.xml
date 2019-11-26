@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonDWD"
+        android:text="Driver WIndow\nDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDWU"
+        android:onClick="sendCommand" />
+
+    <Button
+        android:id="@+id/buttonDWU"
+        android:text="Driver WIndow\nUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonDWD"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="sendCommand" />
+
+    <Button
+        android:id="@+id/buttonPWD"
+        android:text="Passenger WIndow\nDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toTopOf="@+id/buttonDWD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPWU"
+        android:onClick="sendCommand" />
+
+    <Button
+        android:id="@+id/buttonPWU"
+        android:text="Passenger WIndow\nUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toTopOf="@+id/buttonDWU"
+        app:layout_constraintStart_toEndOf="@+id/buttonPWD"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="sendCommand" />
+
+    <Button
+        android:id="@+id/buttonLock"
+        android:text="Lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toTopOf="@+id/buttonPWD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPWU"
+        android:onClick="sendCommand" />
+
+    <Button
+        android:id="@+id/buttonUnlock"
+        android:text="Unlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toTopOf="@+id/buttonPWU"
+        app:layout_constraintStart_toEndOf="@+id/buttonPWD"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="sendCommand" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="15"
+        android:hint="Enter custom command"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLock" />
+
+    <Button
+        android:id="@+id/buttonSendCommand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Send command"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        android:onClick="sendCommand" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSendCommand" />
+
+
+</android.support.constraint.ConstraintLayout>

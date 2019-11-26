@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     BluetoothAdapter btAdapter;
     Set<BluetoothDevice> pairedBTDevices;
+    ArrayList<BluetoothDevice> pairedBTDevicesList = new ArrayList<>();
     CountDownTimer countDownTimer = new CountDownTimer(120000,1000) {
         @Override
         public void onTick(long l) {
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final int BT_ENABLE_CHECK_CODE = 1;
     private static final int BT_DISCOVERABLE_CHECK_CODE = 2;
+    public static  final String EXTRA_ADDRESS = "extra address";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -107,10 +109,15 @@ public class MainActivity extends AppCompatActivity {
         pairedDevicesList.setOnItemClickListener(new AdapterView.OnItemClickListener(){
 
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(MainActivity.this,adapterView.getItemAtPosition(i).toString(),Toast.LENGTH_SHORT).show();
+            public void onItemClick(AdapterView<?> adapterView, View view, int index, long l) {
+                Toast.makeText(MainActivity.this,adapterView.getItemAtPosition(index).toString(),Toast.LENGTH_SHORT).show();
                 //call method to connect to bt
                 //if connection is successful start a new activity with bt communication
+                BluetoothDevice bluetoothDevice = pairedBTDevicesList.get(index);
+                String address = bluetoothDevice.getAddress();
+                Intent controlCar = new Intent(MainActivity.this,SendCommandsActivity.class);
+                controlCar.putExtra(EXTRA_ADDRESS,address);
+                startActivity(controlCar);
             }
         });
     }
@@ -142,10 +149,11 @@ public class MainActivity extends AppCompatActivity {
     public void itemPressed(View v){
         pairedBTDevices = btAdapter.getBondedDevices();
 
-        ArrayList list = new ArrayList();
+        ArrayList<String> list = new ArrayList<>();
 
         for(BluetoothDevice bt : pairedBTDevices){
             list.add(bt.getName());
+            pairedBTDevicesList.add(bt);
         }
 
         ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,list);

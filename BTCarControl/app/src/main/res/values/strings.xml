@@ -5,4 +5,5 @@
     <string name="disableBT">Disable Bluetooth</string>
     <string name="deviceVisible">Device visible</string>
     <string name="pairedList">Paired devices</string>
+    <string name="connecting">Connecting to bluetooth device ...</string>
 </resources>
