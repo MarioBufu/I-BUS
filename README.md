@@ -1,3 +1,42 @@
+Thread skeleton
+```python
+import queue,threading,time
+
+q = queue.Queue()
+
+# q can be passed as argument
+def getBtData():
+  print("BT thread started")
+  for i in range(10):
+    q.put_nowait("mesg from BT")
+  time.sleep(2)
+  print("BT thread finished")
+
+# q can be passed as argument
+def sendIBUSCommand():
+  print("IBUS thread started")
+  while(True):
+    print(q.get())
+    time.sleep(1)
+    if(q.empty()):
+      break
+  print("IBUS thread finished")
+
+if __name__ == "__main__":
+  # q can be passed as argument
+  t1 = threading.Thread(target = getBtData, args = ())
+  # q can be passed as argument
+  t2 = threading.Thread(target = sendIBUSCommand, args = ())
+  print("Starting threads")
+  t1.start()
+  t2.start()
+  print("Waiting for threads to finish")
+  t1.join()
+  t2.join()
+  print("Main finished")
+```
+
+
 https://medium.com/design-and-tech-co/connecting-a-bmw-to-the-internet-part-two-1ee2ea44d4a2
 
 ```python
