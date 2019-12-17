@@ -1,0 +1,575 @@
+1  ls
+    2  sudo raspi-config
+    3  ifconfig
+    4  vncserver
+    5  git clone https://github.com/douglas6/blueplayer.git
+    6  ls
+    7  cd Desktop/
+    8  python test.py
+    9  sudo rm /var/run/bluealsa
+   10  sudo apt-get install bluez
+   11  sudo rm /var/run/bluealsa
+   12  sudo apt-get install bluez-alsa
+   13  sudo apt-get install bluealsa
+   14  sudo rm /var/run/bluealsa
+   15  sudo bluealsa -p a2dp-sink &
+   16  sudo rm /var/run/bluealsa/*
+   17  sudo bluealsa -p a2dp-sink &
+   18  bluetoothct1
+   19  bluetoothctl
+   20  bluealsa-aplay 04:92:26:77:CD:83
+   21  cd desktop
+   22  cd Desktop[
+   23  cd Desktop
+   24  python testpibus.py
+   25  cd Desktop/
+   26  python testpibus.py
+   27  passwd pi
+   28  sudo passwd pi
+   29  cd Desktop/
+   30  python test.py
+   31  sudo bluealsa -p a2dp-sink &
+   32  bluetoothct1
+   33  sudo apt-get install bluealsa
+   34  sudo rm /var/run/bluealsa
+   35  sudo rm /var/run/bluealsa/*
+   36  sudo bluealsa -p a2dp-sink &
+   37  bluetoothct1
+   38  bluetoothct
+   39  bluetoothct1
+   40  1
+   41  sudo rm /var/run/bluealsa/*
+   42  sudo bluealsa -p a2dp-sink &
+   43  bluetoothctl
+   44  1
+   45  bluealsa-aplay 00:00:00:00:00:00
+   46  bluetoothctl
+   47  bluealsa-aplay 04:92:26:77:CD:83
+   48  reboot
+   49  bluetoothctl
+   50  sudo bluealsa -p a2dp-sink &
+   51  sudo rm /var/run/bluealsa/*
+   52  sudo bluealsa -p a2dp-sink &
+   53  bluetoothctl
+   54  bluealsa-aplay 00:00:00:00:00:00
+   55  cd Desktop/
+   56  py test.py
+   57  python test.py
+   58  clear
+   59  python test.py
+   60  lsusb
+   61  dmesg
+   62  dmesg grep Cygnal
+   63  dmesg -grep Cygnal
+   64  usb-devices
+   65  ls /dev | grep USB
+   66  ls
+   67  cd Desktop/
+   68  python pi_simple.py
+   69  python pi_simple.py
+   70  lsusb
+   71  devusb
+   72  ls /dev | grep usb
+   73  ls /dev | grep USB
+   74  python pi_simple.py
+   75  shutdown -s
+   76  shutdown -h
+   77  sudo shutdown -h
+   78  shutdown -c
+   79  sudo shutdown -c
+   80  sudo shutdown -s
+   81  sudo shutdown
+   82  sudo shutdown -n
+   83  sudo shutdown -help
+   84  sudo shutdown help
+   85  sudo shutdown -a
+   86  sudo shutdown 1
+   87  cd Desktop/
+   88  python pi_simple.py
+   89  python pi_simple.py 2
+   90  python pi_simple.py 1
+   91  python pi_simple.py 2
+   92  python pi_simple.py 3
+   93  python pi_simple.py 4
+   94  python pi_simple.py 3
+   95  python pi_simple.py 4
+   96  python pi_simple.py 2
+   97  python pi_simple.py 1
+   98  python pi_simple.py 4
+   99  python pi_simple.py 3
+  100  python pi_simple.py 4
+  101  python pi_simple.py 2
+  102  python bt.py
+  103  cd Desktop/
+  104  python bt.py
+  105  touch /etc/systemd/system/dbus-org.bluez.service
+  106  sudo touch /etc/systemd/system/dbus-org.bluez.service
+  107  sudo vi /etc/systemd/system/dbus-org.bluez.service
+  108  sudo apt-get update
+  109  sudo apt-get install libdbus-1-dev libdbus-glib-1-dev libglib2.0-dev libi                                                                     cal-dev libreadline-dev libudev-dev libusb-dev make
+  110  cd /etc/systemd/system
+  111  sudo nano dbus-org.bluez.service
+  112  sudo sdptool add SP
+  113  systemctl daemon-reload
+  114  service bluetooth restart
+  115  cd Desktop
+  116  cd ..
+  117  cd Desktop
+  118  ls
+  119  cd home
+  120  ls
+  121  CD PI
+  122  cd pi
+  123  ls
+  124  cd Desktop/
+  125  python bt.py
+  126  sudo python bt.py
+  127  sudo apt-get install bluetooth blueman bluez
+  128  sudo apt-get install python-bluetooth
+  129  python bt2.py
+  130  sudo restart
+  131  lusb
+  132  lsusb
+  133  sudo bluetoothctl
+  134  python bt2.py
+  135  sudo nano /etc/systemd/system/dbus-org.bluez.service
+  136  sudo systemctl daemon-reload
+  137  1
+  138  sudo systemctl restart bluetooth.service
+  139  python bt2.py
+  140  python bt.py
+  141  sudo python bt.py
+  142  sudo reboot
+  143  cd Desktop/
+  144  sudo python bt.py
+  145  python bt2.py
+  146  sudo python bt.py
+  147  sudo reboot
+  148  python bt2.py
+  149  cd Desktop/
+  150  python bt2.py
+  151  sudo python bt.py
+  152  python bt2.py
+  153  cd Desktop/
+  154  python pi_simple.py
+  155  sudo rm /var/run/bluealsa/*
+  156  sudo bluealsa -p a2dp-sink &
+  157  bluetoothctl
+  158  bluealsa-aplay 00:00:00:00:00:00
+  159  cd Desktop/
+  160  python test.py
+  161  cd Desktop/
+  162  python pi_simple.py 2
+  163  python pi_simple.py 1
+  164  python pi_simple.py 2
+  165  python pi_simple.py 1
+  166  python pi_simple.py 2
+  167  python pi_simple.py 1
+  168  f
+  169  cd Desktop/
+  170  python test.py 1
+  171  ls
+  172  python pi_simple.py 1
+  173  lsdhdhrjsssaaddfrjejebdksrhrowiwrbdoauehrhdhrrhehrhfbdbdbejuejwjuwieruryr                                                                     urjfnxxbzbznckgkrkeoidhwooqo84747$;$&#&,$÷*&÷€=€=€=€*$*",-'cvvv
+  174  ×
+  175  cd Desktop/
+  176  ls
+  177  python pi_simple.py
+  178  python pi_simple.py 1
+  179  python pi_simple.py 2
+  180  1
+  181  seeeertyuhhgghjjuFfghjj
+  182  cd Desktop/
+  183  python pi_simple.py 4
+  184  python pi_simple.py 3
+  185  python pi_simple.py 4
+  186  python pi_simple.py 2
+  187  cd Desktop/
+  188  python pi_simple.py 2
+  189  cl
+  190  clera
+  191  clear
+  192  python pi_simple.py 2
+  193  clear
+  194  python pi_simple.py 1
+  195  clear
+  196  python pi_simple.py 1
+  197  python pi_simple.py 2
+  198  cd Desktop/
+  199  python pi_simple.py 2
+  200  ifconfig -a
+  201  cd Desktop/
+  202  sudo install vim
+  203  install --help
+  204  sudo apt-get install vim
+  205  mkdir project
+  206  ls
+  207  cd project
+  208  vim busread.py
+  209  nano busread.py
+  210  python busread.py
+  211  nano busread.py
+  212  python busread.py
+  213  vim busread.py
+  214  nano busread.py
+  215  python busread.py
+  216  nano busread.py
+  217  python busread.py
+  218  nano busread.py
+  219  python busread.py
+  220  nano busread.py
+  221  python busread.py
+  222  nano busread.py
+  223  python busread.py
+  224  nano busread.py
+  225  sudo apt-get instal pybluez
+  226  pip install pybluez
+  227  nano busread.py
+  228  python busread.py
+  229  sudo nano bltest.py
+  230  ls
+  231  python bltest.py
+  232  sudo python bltest.py
+  233  python busread.py
+  234  nano busread.py
+  235  sudo shutdown -h now
+  236  cd Desktop/project/
+  237  ls
+  238  nano bltest.py
+  239  nano busread.py
+  240  nano bltest.py
+  241  vim bltest
+  242  vim bltest.py
+  243  vim busread.py
+  244  cd Desktop/
+  245  cd project/
+  246  vim bltest.py
+  247  vim busread.py
+  248  vim bltest.py
+  249  cd Desktop/project/
+  250  nano bltest.py
+  251  vim busread.py
+  252  sudo python busread.py
+  253  vim busread.py
+  254  sudo python busread.py
+  255  vim busread.py
+  256  sudo python busread.py
+  257  vim busread.py
+  258  sudo python busread.py
+  259  vim busread.py
+  260  sudo python busread.py
+  261  vim busread.py
+  262  sudo python busread.py
+  263  vim busread.py
+  264  sudo python busread.py
+  265  vim busread.py
+  266  sudo python busread.py
+  267  vim busread.py
+  268  sudo python busread.py
+  269  vim busread.py
+  270  sudo python busread.py
+  271  vim busread.py
+  272  sudo python busread.py
+  273  vim busread.py
+  274  sudo python busread.py
+  275  vim busread.py
+  276  sudo python busread.py
+  277  vim busread.py
+  278  sudo python busread.py
+  279  vim busread.py
+  280  sudow shutdown -h now
+  281  sudo shutdown -h now
+  282  cd Desktop/
+  283  cd project/
+  284  vim bltest.py
+  285  nano busread.py
+  286  nano bltest.py
+  287  nano busread.py
+  288  vim busread.py
+  289  python busread.py
+  290  vim busread.py
+  291  python busread.py
+  292  sudo python busready
+  293  sudo python busready.py
+  294  sudo python busread.py
+  295  nano busread.py
+  296  sudo python busread.py
+  297  nano busread.py
+  298  sudo python busread.py
+  299  nano busread.py
+  300  vim busread.py
+  301  sudo python busread.py
+  302  vim busread.py
+  303  sudo python busread.py
+  304  vim busread.py
+  305  sudo python busread.py
+  306  vim busread.py
+  307  sudo python busread.py
+  308  ls
+  309  nano bltest.py
+  310  sudo python bltest.py
+  311  sudo python busread.py
+  312  vim bltest.py
+  313  sudo shutdown -h now
+  314  passwd
+  315  sudo passwd
+  316  sudo passwd pi
+  317  cd Desktop/
+  318  cd project/
+  319  ls
+  320  vim busread.py
+  321  vim bltest.py
+  322  cd Desktop/
+  323  ls
+  324  cd ..
+  325  ls
+  326  vim bt2.py
+  327  vim btpycom.py
+  328  cd project/
+  329  vim busread.py
+  330  cd..
+  331  cd ..
+  332  vim btpycom.py
+  333  cd project/
+  334  vim busread.py
+  335  sudo python busread.py
+  336  vim busread.py
+  337  sudo python busread.py
+  338  vim busread.py
+  339  sudo python busread.py
+  340  vim busread.py
+  341  sudo python busread.py
+  342  vim busread.py
+  343  sudo python busread.py
+  344  vim busread.py
+  345  sudo python busread.py
+  346  sudo reboot
+  347  cd Desktop/
+  348  cd project/
+  349  sudo python busread.py
+  350  vim busread.py
+  351  sudo python busread.py
+  352  sudo shutdown -h now
+  353  cd Desktop/project/
+  354  vim busread.py
+  355  sudo python busread.py
+  356  vim busread.py
+  357  sudo python busread.py
+  358  sudo shutdown -h now
+  359  sudo shutdown -n
+  360  sudo shutdown -h
+  361  sudo shutdown -h mow
+  362  sudo shutdown -h now
+  363  ls
+  364  cd Desktop/
+  365  ls
+  366  sudo apt update
+  367  sudo apt install realvnc-vnc-server realvnc-vnc-viewer
+  368  sudo raspi-config
+  369  vncserver
+  370  cd project
+  371  ls
+  372  vncserver -kill :192.168.43.227:1
+  373  vncserver -kill :192.168.43.227
+  374  cd Desktop/
+  375  cd project/
+  376  ls
+  377  py bltest.py
+  378  python bltest.py
+  379  sudo python bltest.py
+  380  vncserver
+  381  vncserver - kill :1
+  382  sudo vncserver - kill :1
+  383  sudo python bltest.py
+  384  vncserver -kill 2
+  385  vncserver -kill :2
+  386  vncserver -kill :1
+  387  vncserver -kill 2
+  388  vncserver -list
+  389  sudo shutdown -h now
+  390  cd Desktop/
+  391  cd project/
+  392  ls
+  393  sudo python bltest.py
+  394  shutdown -h
+  395  sudo shutdown -h
+  396  sudo shutdown -h -n
+  397  sudo shutdown -h now
+  398  cd Desktop/project/
+  399  ls
+  400  sudo python bltest.py
+  401  sudo shutdown -h now
+  402  cd Desktop/project/
+  403  ls
+  404  sudo python comm.py
+  405  cd Desktop/project/
+  406  sudo python comm.py
+  407  cd Desktop/project/
+  408  sudo python comm.py
+  409  vncsever
+  410  vncserver
+  411  vncserver -kill 1
+  412  vncserver -kill :1
+  413  vncserver
+  414  cd Desktop/project/
+  415  sudo python comm.py
+  416  cd Desktop/project/
+  417  sudo python comm.py
+  418  cd Desktop/project/
+  419  sudo python comm.py
+  420  vncserver
+  421  cd Desktop/project/
+  422  sudo python comm.py
+  423  sudo shutdown -h now
+  424  vncserver
+  425  cd Desktop/project/
+  426  sudo shutdown -h now
+  427  cd Desktop/project/
+  428  sudo python comm.py
+  429  vncserver
+  430  sudo python comm.py
+  431  cd Desktop
+  432  cd project
+  433  sudo python comm.py
+  434  sudo shutdown -h now
+  435  cd Desktop
+  436  cs project/
+  437  cd project
+  438  sudo python comm.py
+  439  sudo shutdown -h now
+  440  vncserver
+  441  cd Desktop/
+  442  ls
+  443  python pi_simple 2
+  444  python pi_simple.py 2
+  445  cd project/
+  446  sudo python comm.py
+  447  0004bf7226ef
+  448  0005bf7a1000d0
+  449  0005bf7a500090
+  450  0004bf7602cf
+  451  0004bf7600cd
+  452  0004bf7602cf
+  453  0004bf7600cd
+  454  0004bf7206cf
+  455  sudo python comm.py
+  456  cd project
+  457  ls
+  458  sudo python comm
+  459  sudo python comm.py
+  460  cd Desktop/project/
+  461  sudo python comm.py
+  462  sudo shutdown -h now
+  463  cd Desktop
+  464  ls
+  465  nano pi_simple
+  466  ipconfig -a
+  467  ifconfig -a
+  468  ls
+  469  cd D
+  470  cd Desktop/
+  471  ls
+  472  vim bt.py
+  473  vim btpycom.py
+  474  vim testpibus.py
+  475  vim pi_simple.py
+  476  shutdown -s now
+  477  shutdown -a now
+  478  sudo shutdown -a now
+  479  cd Desktop/
+  480  cd project/
+  481  ls
+  482  vim bltest.py
+  483  vim busread.py
+  484  ls
+  485  vim comm.py
+  486  cd Desktop/
+  487  cd Desktop/project
+  488  cd Desktop/projects
+  489  cd project/
+  490  vim comm.py
+  491  sudo python comm.py
+  492  vim comm.py
+  493  ls
+  494  vim comm.py
+  495  ls
+  496  del comm.py.swp
+  497  rem comm.py.swp
+  498  delete -h
+  499  del -h
+  500  rm comm.py.swp
+  501  ls
+  502  vim comm.py
+  503  ls
+  504  ls -a
+  505  sudo rm .comm.py.swp
+  506  vim comm.py
+  507  sudo python comm.py
+  508  vim comm.py
+  509  sudo python comm.py
+  510  vim comm.py
+  511  sudo python comm.py
+  512  vim comm.py
+  513  sudo python comm.py
+  514  vim comm.py
+  515  sudo python comm.py
+  516  vim comm.py
+  517  sudo python comm.py
+  518  vim comm.py
+  519  sudo python comm.py
+  520  vim comm.py
+  521  sudo python comm.py
+  522  vim comm.py
+  523  sudo python comm.py
+  524  vim comm.py
+  525  sudo python comm.py
+  526  vim comm.py
+  527  sudo python comm.py
+  528  vim comm.py
+  529  sudo python comm.py
+  530  vim comm.py
+  531  sudo python comm.py
+  532  vim comm.py
+  533  sudo python comm.py
+  534  vim comm.py
+  535  sudo python comm.py
+  536  vim comm.py
+  537  sudo python comm.py
+  538  sudo restart
+  539  sudo restart -a
+  540  sudo reboot
+  541  cd Desktop/project/
+  542  vim comm.py
+  543  sudo python comm.py
+  544  vim comm.py
+  545  sudo python comm.py
+  546  vim comm.py
+  547  sudo python comm.py
+  548  vim comm.py
+  549  sudo python comm.py
+  550  vim comm.py
+  551  sudo python comm.py
+  552  vim comm.py
+  553  sudo python comm.py
+  554  vim comm.py
+  555  sudo python comm.py
+  556  vim comm.py
+  557  sudo python comm.py
+  558  vim comm.py
+  559  sudo python comm.py
+  560  vim comm.py
+  561  sudo python comm.py
+  562  vim comm.py
+  563  sudo python comm.py
+  564  vim comm.py
+  565  sudo python comm.py
+  566  vim comm.py
+  567  sudo python comm.py
+  568  PuTTYData to send 3f05000c36
+  569  vim comm.py
+  570  sudo python comm.py
+  571  sudo shudown
+  572  sudo shutdown -a now
+  573  sudo apt-get install zip unzip
+  574  cd Desktop/
+  575  zip project/
